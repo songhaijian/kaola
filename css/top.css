@@ -138,6 +138,32 @@
     background: url(../img/ad_banner.jpg) center bottom;
     filter: blur(10px);
 }
+.dots_wrap{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 60px;
+}
+.dots_wrap .dot{
+    position: absolute;
+    left: 180px;
+    bottom: 0;
+}
+.dots_wrap .dot i{
+    float: left;
+    width: 9px;
+    height: 9px;
+    background-color: #fff;
+    border-radius: 50%;
+    margin-left: 15px;
+}
+.dots_wrap .dot i.dot_checked{
+    background-color: teal;
+}
+.dots_wrap .dot i:hover{
+    background-color: teal;
+    cursor: pointer;
+}
 .sell_point_wrap{
     position: absolute;
     left: 0;
@@ -163,6 +189,7 @@
     color: #fff;
 }
 .mobile_wrap a{
+    float: right;
     color: #fff;
 }
 
